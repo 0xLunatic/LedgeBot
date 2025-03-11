@@ -5,7 +5,7 @@ import { readFiles, delay } from './utils/helper.js'
 import banner from './utils/banner.js';
 import LayerEdge from './utils/socket.js';
 
-const WALLETS_PATH = 'wallets.json'  // change to walletsRef.json if you want to running ref wallets
+const WALLETS_PATH = 'walletsRef.json'  // change to walletsRef.json if you want to running ref wallets
 
 // Function to read wallets 
 async function readWallets() {
